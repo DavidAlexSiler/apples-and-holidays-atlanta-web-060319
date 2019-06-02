@@ -62,6 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
        data.each do |holiday, supply|
          new_arr = holiday.to_s.split("_")
          formatted_holiday = []
+          new_arr.each do ||
         
     
 end
