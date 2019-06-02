@@ -67,6 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
           end
           holiday = formatted_holiday.join(" ")
           supply = supply.join(", ")
+          puts "#{holiday}:"
           
         
     
