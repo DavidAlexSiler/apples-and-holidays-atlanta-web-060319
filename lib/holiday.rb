@@ -64,6 +64,8 @@ def all_supplies_in_holidays(holiday_hash)
          formatted_holiday = []
           new_arr.each do |x|
             formatted_holiday << x.capitalize!
+          end
+          holiday = 
         
     
 end
