@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
             formatted_holiday << x.capitalize!
           end
           holiday = formatted_holiday.join(" ")
-          supply = supply.join(" ")
+          supply = supply.join(", ")
           
         
     
