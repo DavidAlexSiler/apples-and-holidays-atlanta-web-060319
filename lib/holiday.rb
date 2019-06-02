@@ -62,6 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, data|
     #get all the seasons together in the format they want
     puts "#{season.to_s.capitalize!}:"
+    #second level same deal
        data.each do |holiday, supply|
          new_arr = holiday.to_s.split("_")
          formatted_holiday = []
